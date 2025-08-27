@@ -1,0 +1,12 @@
+# C
+COLOR_BEIGE = (237, 232, 208)
+COLOR_GREY = (137, 137, 137)
+COLOR_WHITE = (255, 255, 255)
+
+# M
+MENU_OPTION = ('START',
+               'SCORE',
+               'EXIT')
+# W
+WIN_WIDTH = 820
+WIN_HEIGHT = 950
