@@ -4,7 +4,7 @@ import pygame
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.const import WIN_WIDTH, COLOR_WHITE, MENU_OPTION, COLOR_GREY, COLOR_CYAN
+from code.const import WIN_WIDTH, COLOR_WHITE, MENU_OPTION, COLOR_GRAY, COLOR_CYAN
 
 
 class Menu:
@@ -20,7 +20,7 @@ class Menu:
         while True:
             # DRAW IMAGES
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(100,"BRICKS BREAKER", (COLOR_GREY), (WIN_WIDTH / 2, 200))
+            self.menu_text(100,"BRICKS BREAKER", (COLOR_GRAY), (WIN_WIDTH / 2, 200))
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_opition:

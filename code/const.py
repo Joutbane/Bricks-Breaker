@@ -1,6 +1,6 @@
 # C
 COLOR_CYAN = (0, 255, 255)
-COLOR_GREY = (137, 137, 137)
+COLOR_GRAY = (137, 137, 137)
 COLOR_WHITE = (255, 255, 255)
 
 # E
@@ -9,7 +9,8 @@ ENTITY_SPEED = {
     'Level1Bg1': 2,
     'Level1Bg2': 4,
     'Level1Bg3': 6,
-    'Level1Bg4': 8
+    'Level1Bg4': 8,
+    'Player': 5
 }
 
 # M
